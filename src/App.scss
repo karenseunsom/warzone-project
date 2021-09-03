@@ -1,0 +1,137 @@
+// .App {
+//  text-align: center; 
+// }
+
+
+// .dropdown-toggle {
+//   background-color: purple !important;
+//   border: none !important;
+// }
+
+.nowrap {
+  white-space: nowrap;
+}
+
+// .accordion {
+//   background-color: rgba(255, 255, 255, 0.2) !important;
+// }
+
+// .accordion-item {
+//   background-color: rgba(255, 255, 255, 0.2) !important;
+// }
+
+// .accordion-header {
+//   background-color: rgba(255, 255, 255, 0.2) !important;
+// }
+
+// .accordion-button {
+//   background-color: rgba(255, 255, 255, 0.2) !important;
+// }
+
+// .accordion-body {
+//   background-color: rgba(255, 255, 255, 0.2) !important;
+// }
+
+// .list-group {
+//   background-color: rgba(255, 255, 255, 0.2) !important;
+// }
+
+// .list-group-item {
+//   background-color: rgba(255, 255, 255, 0.2) !important;
+// }
+
+.gameFont {
+font-family: 'Games', sans-serif;
+font-size: 32px;
+color: #FF5000;
+align-items: center;
+}
+
+// html {
+//   height: 100%;
+//   background-color: #76498A ;
+// border: solid 2px #fff;
+// box-shadow:
+//   inset 60px 0 200px #A04B00, 
+//   inset -60px 0 200px #008A74 ;
+// }
+
+.body {
+
+height: 100%;
+background-color: #76498A ;
+border: solid 2px #fff;
+box-shadow:
+  inset 60px 0 200px #A04B00, 
+  inset -60px 0 200px #008A74 ;
+padding-bottom: 500px;
+
+}
+
+
+
+.headerArea {
+
+  .row {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    .col {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+#platform {
+  background: transparent;
+  display: inline-block;
+  color: palevioletred;
+  font-size: 1.2em;
+  border: 2px solid palevioletred;
+  border-radius: 3px; 
+  margin-left: 3px;
+  // display: block;
+  text-decoration: none;
+  &:hover {
+      color: white;
+      background-color: tomato;
+  }
+
+}
+
+.card {
+  margin: 7px;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.card-body {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.card-header {
+  color: white;
+}
+
+.pageBox {
+  display: flex;
+  
+}
+
+.pagination {
+  margin-left: auto;
+  margin-right: 7px;
+  background-color: rgba(255, 255, 255, 0.2);
+  button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.searchPage {
+  padding-bottom: 500px;
+}
